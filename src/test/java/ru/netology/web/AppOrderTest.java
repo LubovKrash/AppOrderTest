@@ -37,7 +37,7 @@ public class AppOrderTest {
   }
 
   @Test
-  public void LetMeTest() {
+  public void letMeTest() {
     driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Лариса Ивановна");
     driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79101234567");
     driver.findElement(By.cssSelector("[data-test-id='agreement']")).click();
